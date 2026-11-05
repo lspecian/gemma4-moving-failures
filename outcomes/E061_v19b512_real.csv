@@ -1,0 +1,92 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_14258,wrong,508,163.0,16,19,
+r1,fastapi_13920,wrong,1957,230.5,19,24,
+r1,fastapi_12942,empty,0,289.9,23,24,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14099,empty,0,279.4,31,31,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14372,pass,528,159.4,15,17,
+r1,fastapi_14349,pass,862,138.7,10,12,
+r1,fastapi_11355,wrong,1651,262.3,23,26,
+r1,fastapi_14306,wrong,2586,346.7,25,28,
+r1,fastapi_14458,wrong,1004,332.6,13,15,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14448,empty,0,283.4,13,13,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14455,empty,0,470.7,14,14,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14430,wrong,318,608.6,14,14,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14361,pass,544,450.9,11,13,
+r1,fastapi_13207,empty,0,404.8,19,20,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14360,pass,689,251.8,15,17,
+r1,fastapi_14356,pass,1011,153.5,11,13,
+r1,fastapi_14419,pass,922,285.4,20,22,
+r1,fastapi_14301,pass,647,90.2,7,9,
+r1,fastapi_14262,wrong,1853,183.6,20,24,
+r1,fastapi_14266,empty,0,280.6,32,36,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14246,empty,0,282.9,19,20,Agent exceeded session timeout (4.5 min)
+r1,fastapi_13713,wrong,909,389.4,26,28,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14371,empty,0,370.3,20,22,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14297,pass,896,611.0,9,11,
+r1,fastapi_14303,pass,745,337.7,7,9,
+r1,fastapi_13537,pass,805,647.6,7,10,
+r1,fastapi_13786,empty,0,537.5,14,14,Agent exceeded session timeout (4.5 min)
+r1,fastapi_11194,pass,993,607.7,13,13,
+r1,fastapi_15661,empty,0,281.8,15,17,Agent exceeded session timeout (4.5 min)
+r1,fastapi_15588,wrong,1272,534.6,20,20,Agent exceeded session timeout (4.5 min)
+r1,fastapi_15589,empty,0,288.2,14,15,Agent exceeded session timeout (4.5 min)
+r1,fastapi_15030,empty,0,561.9,13,14,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14962,empty,0,555.5,16,18,Agent exceeded session timeout (4.5 min)
+r1,fastapi_15280,empty,0,423.1,9,12,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14964,wrong,1723,506.0,17,21,Agent exceeded session timeout (4.5 min)
+r1,fastapi_15023,empty,0,400.2,20,21,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14986,wrong,1557,919.5,13,15,
+r1,fastapi_14978,empty,0,590.3,18,19,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14873,empty,0,300.0,0,0,"Unexpected evaluation worker error: UnixHTTPConnectionPool(host='localhost', por"
+r1,fastapi_14794,pass,1047,555.3,9,11,
+r1,fastapi_14786,pass,404,772.9,5,10,
+r1,fastapi_14492,pass,391,663.6,15,17,
+r1,fastapi_14479,wrong,524,282.9,18,21,
+r1,fastapi_14463,pass,745,126.7,9,11,
+r1,fastapi_14609,empty,0,279.8,28,28,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14512,empty,0,283.9,21,22,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14487,wrong,1175,489.6,24,27,
+r1,fastapi_14485,wrong,622,527.9,13,13,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14482,wrong,437,851.4,9,10,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14459,empty,0,494.1,11,12,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14791,pass,483,566.0,11,11,
+r1,fastapi_15800,wrong,411,550.1,20,26,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14605,wrong,1684,499.3,20,23,
+r1,fastapi_14583,wrong,432,431.2,18,19,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14953,wrong,560,141.6,10,12,
+r1,fastapi_14616,wrong,878,253.2,22,24,
+r1,requests_7427,pass,931,271.1,21,23,
+r1,requests_7315,pass,522,101.4,8,10,
+r1,requests_7309,pass,692,136.6,9,12,
+r1,requests_7205,pass,503,116.2,7,9,
+r1,fastapi_9753,pass,1041,190.5,16,19,
+r1,fastapi_5077,wrong,525,278.2,14,17,
+r1,fastapi_9555,pass,1763,270.8,17,23,
+r1,fastapi_5624,wrong,1822,227.1,19,21,
+r1,fastapi_9425,pass,544,171.7,14,16,
+r1,httpx_3672,pass,1705,296.3,31,31,
+r1,requests_6644,pass,501,99.9,10,12,
+r1,rich_3180,empty,0,280.3,17,17,Agent exceeded session timeout (4.5 min)
+r1,rich_3468,wrong,1269,327.8,21,23,
+r1,rich_3296,pass,619,406.5,13,18,
+r1,rich_3454,pass,656,327.2,13,15,
+r1,rich_3469,empty,0,407.2,17,17,Agent exceeded session timeout (4.5 min)
+r1,rich_3052,wrong,3877,253.9,20,23,
+r1,rich_3278,wrong,333,206.5,13,15,
+r1,rich_2943,pass,400,104.3,15,17,
+r1,rich_2725,pass,609,333.4,12,14,
+r1,rich_3105,empty,0,279.8,23,23,Agent exceeded session timeout (4.5 min)
+r1,rich_3130,pass,856,318.5,21,27,
+r1,rich_3043,pass,449,444.9,9,11,
+r1,rich_3067,pass,655,361.1,13,15,
+r1,rich_3006,pass,558,357.5,8,10,
+r1,rich_3064,empty,0,369.4,20,25,Agent exceeded session timeout (4.5 min)
+r1,rich_3063,wrong,994,440.8,16,21,Agent exceeded session timeout (4.5 min)
+r1,rich_3061,wrong,1604,432.1,12,15,Agent exceeded session timeout (4.5 min)
+r1,rich_4077,pass,396,222.9,14,20,
+r1,rich_4076,empty,0,298.2,24,24,Agent exceeded session timeout (4.5 min)
+r1,rich_4070,wrong,2863,294.4,20,23,
+r1,rich_4075,wrong,916,387.7,19,19,Agent exceeded session timeout (4.5 min)
+r1,rich_3718,wrong,398,322.9,11,14,
+r1,rich_3934,empty,0,190.9,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rich_3953,empty,0,214.5,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA

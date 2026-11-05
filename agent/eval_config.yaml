@@ -1,0 +1,15 @@
+# Read by Kaggle's scorer only (local `swegemma eval` uses CLI flags).
+# 12 h covers ~120 sequential tasks including container setup; overrunning errors the whole submission.
+# timeout_seconds is also the timeout for the hidden tests in verification (our runs: seconds).
+# 4.5 min/task (v14): v7 needed 11.75 h at 5 min/task (~52 s overhead per task); with real patches the hidden
+# tests also run and Kaggle generates slower than our L40S, so 5 min risks the 12 h error. Locally 4.5 min would
+# have lost 3/32 passes (E029/E032), 4 min 9/32.
+# v22: 8 min / 28 calls / 240 s test timeout (the public 0.18 bundle: copies scored 0.12-0.18; a run with these
+# caps finished under 12 h; 746480: the 10-06..08 system errors hit many teams, not only long budgets).
+# v20b: 4.0 min after two 'system error' submissions (v18d+rft2, v19b; v18d itself took ~11.7 h end to end): ~1 h
+# more margin under the 12 h limit. At real Kaggle speed (~35 tok/s) most runs finish well before the limit.
+evaluation:
+  timeout_seconds: 240
+  max_tool_calls: 28
+  max_time_minutes: 8
+  max_turns: 80

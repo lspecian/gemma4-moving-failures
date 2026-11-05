@@ -1,0 +1,7 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_12942,wrong,1313,578.9,17,17,Agent exceeded session timeout (8.0 min)
+r1,fastapi_11355,empty,0,491.9,9,9,Agent exceeded session timeout (8.0 min)
+r1,fastapi_13207,wrong,889,427.4,11,13,
+r1,fastapi_13713,empty,0,530.1,5,5,Agent exceeded session timeout (8.0 min)
+r1,fastapi_13537,wrong,661,470.9,8,10,
+r1,fastapi_11194,wrong,686,402.8,14,16,

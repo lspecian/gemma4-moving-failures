@@ -1,0 +1,39 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_15661,empty,0,507.9,46,50,Agent exceeded session timeout (8.0 min)
+r1,fastapi_14962,empty,0,505.5,52,56,Agent exceeded session timeout (8.0 min)
+r1,fastapi_15280,empty,0,507.8,93,97,Agent exceeded session timeout (8.0 min)
+r1,fastapi_14986,wrong,3153,883.5,59,65,Agent exceeded session timeout (8.0 min)
+r1,requests_7427,pass,2399,881.4,37,41,
+r1,requests_7205,pass,503,698.1,31,37,
+r1,rich_4070,wrong,4002,960.6,56,60,Agent exceeded session timeout (8.0 min)
+r1,rich_4077,pass,324,359.5,52,58,
+r1,fastapi_14794,pass,791,310.1,29,35,
+r1,fastapi_14479,wrong,1301,840.5,33,39,
+r1,fastapi_14487,empty,0,787.4,102,109,"Unexpected evaluation worker error: UnixHTTPConnectionPool(host='localhost', por"
+r1,fastapi_14458,pass,1502,823.1,29,35,
+r1,fastapi_9753,pass,4541,985.2,64,69,
+r1,fastapi_14430,empty,0,749.5,50,54,Agent exceeded session timeout (8.0 min)
+r1,fastapi_13207,pass,1280,837.9,48,55,
+r1,fastapi_14356,pass,1040,827.0,53,59,
+r1,fastapi_5624,empty,0,806.5,66,70,Agent exceeded session timeout (8.0 min)
+r1,fastapi_14266,empty,0,799.1,118,120,Agent exceeded session timeout (8.0 min)
+r1,fastapi_14246,empty,0,728.9,76,80,Agent exceeded session timeout (8.0 min)
+r1,rich_3718,wrong,1182,824.4,44,48,Agent exceeded session timeout (8.0 min)
+r1,rich_3944,wrong,1558,663.0,47,53,
+r1,rich_3935,empty,0,723.0,33,37,Agent exceeded session timeout (8.0 min)
+r1,rich_3905,pass,627,289.5,34,40,
+r1,fastapi_14371,empty,0,488.6,64,68,Agent exceeded session timeout (8.0 min)
+r1,fastapi_14583,empty,0,484.3,37,39,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,fastapi_14303,empty,0,402.2,8,9,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,fastapi_13786,empty,0,188.2,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,fastapi_14616,empty,0,175.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,fastapi_11194,empty,0,186.0,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rich_3180,empty,0,177.1,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rich_3782,empty,0,187.3,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rich_3535,empty,0,180.8,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rich_3506,empty,0,196.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rich_3454,empty,0,182.5,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rich_3470,empty,0,189.3,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rich_3067,empty,0,181.2,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rich_3006,empty,0,176.5,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rich_3061,empty,0,184.3,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA

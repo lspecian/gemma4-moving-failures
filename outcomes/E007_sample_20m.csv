@@ -1,0 +1,13 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_14258,wrong,3507,782.9,29,33,
+r1,fastapi_14372,pass,607,660.9,26,30,
+r1,fastapi_14986,wrong,1490,1250.4,27,27,Agent exceeded session timeout (20.0 min)
+r1,fastapi_15661,empty,0,1223.5,26,27,Agent exceeded session timeout (20.0 min)
+r1,fastapi_15800,wrong,1206,1086.7,39,42,
+r1,requests_7309,pass,692,1037.0,26,28,
+r1,requests_7315,pass,522,859.7,24,26,
+r1,rich_3043,wrong,290,1228.4,18,18,Agent exceeded session timeout (20.0 min)
+r1,rich_3105,empty,0,1221.8,13,14,Agent exceeded session timeout (20.0 min)
+r1,rich_3468,empty,0,1208.3,16,16,Agent exceeded session timeout (20.0 min)
+r1,rich_3777,pass,1963,1246.9,37,37,
+r1,rich_3944,empty,0,978.6,19,19,Sandbox execution error: litellm.ContextWindowExceededError: litellm.BadRequestE

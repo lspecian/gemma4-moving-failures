@@ -1,0 +1,37 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_15661,empty,0,307.7,19,22,Agent exceeded session timeout (5.0 min)
+r1,fastapi_14986,wrong,1716,239.9,6,10,
+r1,requests_7315,pass,522,233.3,14,16,
+r1,requests_7309,pass,927,135.6,6,10,
+r1,fastapi_14258,wrong,508,118.4,13,15,
+r1,fastapi_14372,pass,1497,323.6,13,23,
+r1,rich_3944,wrong,1339,322.8,18,20,Agent exceeded session timeout (5.0 min)
+r1,fastapi_15800,wrong,1027,324.7,20,21,Agent exceeded session timeout (5.0 min)
+r1,rich_3777,wrong,1161,325.6,19,19,Agent exceeded session timeout (5.0 min)
+r1,rich_3468,pass,619,323.2,13,15,
+r1,rich_3105,empty,0,307.0,16,18,Agent exceeded session timeout (5.0 min)
+r1,rich_3043,empty,0,306.5,8,9,Agent exceeded session timeout (5.0 min)
+r2,fastapi_15661,empty,0,307.4,15,21,Agent exceeded session timeout (5.0 min)
+r2,fastapi_14986,wrong,1690,324.3,10,11,Agent exceeded session timeout (5.0 min)
+r2,requests_7315,pass,522,206.8,11,13,
+r2,requests_7309,pass,1025,227.7,10,12,
+r2,fastapi_14258,wrong,505,270.8,17,20,
+r2,fastapi_14372,pass,593,226.1,16,18,
+r2,rich_3944,empty,0,307.0,15,16,Agent exceeded session timeout (5.0 min)
+r2,fastapi_15800,wrong,762,324.4,15,15,Agent exceeded session timeout (5.0 min)
+r2,rich_3777,wrong,481,268.0,19,22,
+r2,rich_3468,pass,1109,323.1,16,17,
+r2,rich_3105,empty,0,204.1,20,24,
+r2,rich_3043,pass,449,261.1,9,13,
+r3,fastapi_15661,empty,0,239.7,14,19,Sandbox execution error: Tool 'create.py' not found. Available tools: get_status
+r3,fastapi_14986,wrong,2215,270.1,9,11,
+r3,requests_7315,pass,522,199.8,12,14,
+r3,requests_7309,pass,692,322.5,9,11,
+r3,fastapi_14258,wrong,512,261.7,15,17,
+r3,fastapi_14372,pass,1491,271.0,20,22,
+r3,rich_3944,empty,0,306.6,12,14,Agent exceeded session timeout (5.0 min)
+r3,fastapi_15800,wrong,1871,310.3,26,40,
+r3,rich_3777,wrong,1675,254.7,18,27,
+r3,rich_3468,empty,0,306.6,8,9,Agent exceeded session timeout (5.0 min)
+r3,rich_3105,empty,0,180.4,20,24,
+r3,rich_3043,pass,449,211.6,8,11,

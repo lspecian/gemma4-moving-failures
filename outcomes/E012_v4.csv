@@ -1,0 +1,13 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,requests_7315,wrong,1316,634.0,26,29,Failed to apply test_patch: git apply /tmp/tmplu72crso.patch failed (1): error: 
+r1,rich_3043,wrong,3228,1047.2,16,19,
+r1,rich_3468,pass,1284,913.8,31,33,
+r1,rich_3777,pass,976,945.7,40,43,
+r2,requests_7315,wrong,1176,409.2,14,16,Failed to apply test_patch: git apply /tmp/tmpdhp6q7z6.patch failed (1): error: 
+r2,rich_3043,pass,449,1222.5,17,17,
+r2,rich_3468,pass,1763,953.8,29,32,
+r2,rich_3777,wrong,1914,1105.3,40,42,
+r3,requests_7315,wrong,1552,585.8,16,18,Failed to apply test_patch: git apply /tmp/tmp1c1_unfq.patch failed (1): error: 
+r3,rich_3043,wrong,2000,1222.6,20,20,Agent exceeded session timeout (20.0 min)
+r3,rich_3468,empty,0,1206.5,25,27,Agent exceeded session timeout (20.0 min)
+r3,rich_3777,wrong,2644,1221.9,35,35,Agent exceeded session timeout (20.0 min)

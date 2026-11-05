@@ -1,0 +1,114 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_14258,wrong,508,100.8,10,12,
+r1,fastapi_13920,wrong,1984,232.7,23,26,
+r1,fastapi_12942,wrong,1194,261.0,24,26,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14099,empty,0,254.0,32,33,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14372,pass,566,212.0,23,26,
+r1,fastapi_14349,wrong,512,126.6,11,13,
+r1,fastapi_11355,wrong,824,229.9,22,24,
+r1,fastapi_14306,wrong,1917,258.5,33,33,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14458,pass,1325,180.9,11,13,
+r1,fastapi_14448,wrong,3087,217.2,22,24,
+r1,fastapi_14455,wrong,1291,192.4,22,26,
+r1,fastapi_14430,pass,710,162.9,16,20,
+r1,fastapi_14361,pass,563,183.2,18,20,
+r1,fastapi_13207,pass,1197,188.4,18,20,
+r1,fastapi_14360,pass,635,138.2,11,14,
+r1,fastapi_14356,pass,744,226.7,22,24,
+r1,fastapi_14419,wrong,866,256.0,23,25,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14301,pass,685,92.8,9,11,
+r1,fastapi_14262,wrong,832,241.7,31,36,
+r1,fastapi_14266,empty,0,247.7,40,40,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14246,wrong,1016,234.0,25,28,
+r1,fastapi_13713,wrong,2707,243.3,25,34,
+r1,fastapi_14371,wrong,588,241.7,25,28,
+r1,fastapi_14297,pass,917,145.1,12,14,
+r1,fastapi_14303,pass,745,105.0,8,10,
+r1,fastapi_13537,pass,866,137.3,11,13,
+r1,fastapi_13786,empty,0,247.9,24,27,Agent exceeded session timeout (4.0 min)
+r1,fastapi_11194,pass,993,160.7,12,14,
+r1,fastapi_15661,wrong,980,220.2,19,25,
+r1,fastapi_15588,wrong,704,92.7,9,11,
+r1,fastapi_15589,empty,0,250.6,17,19,Agent exceeded session timeout (4.0 min)
+r1,fastapi_15030,wrong,922,152.7,15,17,
+r1,fastapi_14962,empty,0,248.2,1,39,Agent exceeded session timeout (4.0 min)
+r1,fastapi_15280,empty,0,248.2,15,18,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14964,wrong,1776,164.8,19,21,
+r1,fastapi_15023,wrong,859,237.6,28,32,
+r1,fastapi_14986,wrong,1503,188.1,17,19,
+r1,fastapi_14978,wrong,704,258.7,38,38,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14873,pass,1681,98.8,8,10,
+r1,fastapi_14794,pass,791,141.7,12,14,
+r1,fastapi_14786,pass,404,67.8,5,7,
+r1,fastapi_14492,empty,0,249.5,1,46,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14479,wrong,524,152.6,14,17,
+r1,fastapi_14463,empty,0,34.3,1,3,Sandbox execution error: Tool 'create.py' not found. Available tools: get_status
+r1,fastapi_14609,wrong,327,258.1,37,41,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14512,empty,0,248.1,21,26,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14487,wrong,1133,154.2,25,28,
+r1,fastapi_14485,wrong,712,181.0,20,22,
+r1,fastapi_14482,empty,0,247.9,1,55,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14459,empty,0,247.6,24,30,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14791,wrong,565,135.6,11,13,
+r1,fastapi_15800,wrong,2040,259.1,25,27,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14605,pass,7833,253.0,39,44,
+r1,fastapi_14583,wrong,432,157.5,17,20,
+r1,fastapi_14953,wrong,560,165.3,17,21,
+r1,fastapi_14616,wrong,1253,258.3,23,49,Agent exceeded session timeout (4.0 min)
+r1,requests_7427,wrong,977,149.8,11,13,
+r1,requests_7315,pass,528,133.1,15,17,
+r1,requests_7309,pass,692,126.9,10,12,
+r1,requests_7205,pass,503,103.3,9,11,
+r1,fastapi_9753,pass,1730,257.0,34,37,
+r1,fastapi_5077,pass,1525,238.9,20,24,
+r1,fastapi_9555,pass,1688,183.1,16,18,
+r1,fastapi_5624,wrong,1718,245.3,24,28,
+r1,fastapi_9425,pass,559,84.7,9,11,
+r1,httpx_3672,pass,2097,253.3,33,35,
+r1,requests_6644,pass,724,128.8,16,18,
+r1,rich_3180,wrong,2222,258.0,20,21,Agent exceeded session timeout (4.0 min)
+r1,rich_3468,wrong,1269,247.1,20,23,
+r1,rich_3296,pass,540,97.6,12,14,
+r1,rich_3454,pass,656,105.3,12,15,
+r1,rich_3469,empty,0,247.4,24,26,Agent exceeded session timeout (4.0 min)
+r1,rich_3052,wrong,2264,256.7,18,19,Agent exceeded session timeout (4.0 min)
+r1,rich_3278,wrong,321,166.8,15,18,
+r1,rich_2943,pass,400,124.5,14,16,
+r1,rich_2725,pass,609,108.2,10,13,
+r1,rich_3105,empty,0,247.7,20,47,Agent exceeded session timeout (4.0 min)
+r1,rich_3130,pass,856,239.4,31,34,
+r1,rich_3043,pass,449,120.1,9,13,
+r1,rich_3067,pass,655,81.1,9,12,
+r1,rich_3006,pass,558,122.0,14,16,
+r1,rich_3064,pass,1010,142.4,17,19,
+r1,rich_3063,pass,422,250.5,23,25,
+r1,rich_3061,wrong,1629,250.7,20,24,
+r1,rich_4070,empty,0,28.4,0,4,Agent completed execution without calling submit_patch.
+r1,rich_4077,wrong,850,254.8,26,30,
+r1,rich_4076,wrong,710,222.0,21,23,
+r1,rich_4075,wrong,1110,217.8,23,25,
+r1,rich_4006,wrong,1110,555.5,16,16,Agent exceeded session timeout (4.0 min)
+r1,rich_3718,wrong,398,89.7,13,15,
+r1,rich_3934,empty,0,247.5,24,25,Agent exceeded session timeout (4.0 min)
+r1,rich_3953,wrong,1981,205.6,16,20,
+r1,rich_3944,wrong,1359,96.3,10,12,
+r1,rich_3942,wrong,580,185.7,22,27,
+r1,rich_3938,wrong,229,256.5,27,31,Agent exceeded session timeout (4.0 min)
+r1,rich_3882,pass,503,82.0,8,10,
+r1,rich_3894,pass,595,84.4,8,10,
+r1,rich_3935,wrong,620,112.7,15,17,
+r1,rich_3905,pass,627,86.9,10,12,
+r1,rich_3930,wrong,1366,245.8,29,35,
+r1,rich_3777,pass,1565,176.1,20,23,
+r1,rich_3782,wrong,604,250.9,21,25,
+r1,rich_3772,wrong,2404,502.4,20,25,
+r1,rich_3675,wrong,702,79.8,7,9,
+r1,rich_3676,pass,1144,159.8,19,24,
+r1,rich_3518,pass,529,90.3,13,15,
+r1,rich_3535,wrong,465,111.7,11,13,
+r1,rich_3521,wrong,590,241.6,24,29,
+r1,rich_3506,wrong,505,257.7,22,24,Agent exceeded session timeout (4.0 min)
+r1,rich_3480,pass,1281,242.9,27,32,
+r1,rich_3471,wrong,703,141.5,18,20,
+r1,rich_3470,wrong,457,258.0,35,37,Agent exceeded session timeout (4.0 min)
+r1,rich_4079,pass,542,230.6,24,28,

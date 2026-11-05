@@ -1,0 +1,100 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,sktime__skpro-574,wrong,888,318.2,28,30,
+r1,projectmesa__mesa-2755,wrong,2742,476.7,23,25,
+r1,urllib3__urllib3-3601,empty,0,259.7,28,33,
+r1,keephq__keep-5101,wrong,881,516.8,28,31,
+r1,scientific-python__docstub-123,wrong,1194,247.2,28,31,
+r1,Archmonger__django-dbbackup-631,wrong,1023,389.9,11,13,
+r1,meltano__sdk-3091,pass,743,290.8,13,15,
+r1,astronomy-commons__hats-648,wrong,1056,333.7,13,15,
+r1,spack__spack-51723,wrong,1153,515.6,23,23,Agent exceeded session timeout (8.0 min)
+r1,pvlib__pvlib-python-2400,pass,731,148.7,8,10,
+r1,dwavesystems__dwave-system-582,empty,0,496.6,28,28,Agent exceeded session timeout (8.0 min)
+r1,apiflask__apiflask-659,pass,642,53.8,5,8,
+r1,cta-observatory__ctapipe-2732,wrong,538,303.4,28,30,
+r1,spdx__tools-python-855,pass,2496,356.1,16,18,
+r1,jelmer__dulwich-1500,wrong,1156,288.8,28,32,
+r1,useblocks__sphinx-needs-1428,wrong,3173,225.2,15,17,
+r1,litestar-org__litestar-4128,wrong,626,169.2,14,16,
+r1,mem0ai__mem0-2774,wrong,1439,208.5,13,15,
+r1,beetbox__beets-5705,wrong,675,113.1,20,22,
+r1,hynek__structlog-720,wrong,1001,362.4,19,21,
+r1,a2aproject__a2a-python-576,wrong,5558,496.8,27,29,
+r1,databricks__dbt-databricks-1428,wrong,825,535.5,27,27,Agent exceeded session timeout (8.0 min)
+r1,holoviz__param-1073,pass,1953,311.6,28,32,
+r1,PennyLaneAI__pennylane-7671,pass,560,295.1,19,26,
+r1,BrianPugh__cyclopts-633,pass,411,173.4,28,30,
+r1,MervinPraison__PraisonAI-518,wrong,3003,393.2,14,14,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,browser-use__browser-use-1570,empty,0,326.3,7,7,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,marshmallow-code__marshmallow-2925_interface,wrong,1207,157.7,25,25,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,pycqa__isort-2491,wrong,299,240.9,8,8,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,oemof__tespy-921,empty,0,187.3,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,aws-powertools__powertools-lambda-python-7315,empty,0,189.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,jupyter__jupyter_client-1060,empty,0,175.2,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,schemathesis__schemathesis-3778,empty,0,195.9,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,google__adk-python-3088,empty,0,192.3,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,python-attrs__attrs-1457,empty,0,173.9,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,marketsquare__robotframework-robocop-1322,empty,0,178.2,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,piskvorky__smart_open-889,empty,0,187.8,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,sdv-dev__SDV-2709,empty,0,210.5,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,delgan__loguru-1451,empty,0,174.6,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,theskumar__python-dotenv-563,empty,0,184.6,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,PyPSA__PyPSA-1414,empty,0,200.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,con__nwb2bids-347_interface,empty,0,190.3,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,MAIF__arta-50,empty,0,192.4,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,IBM__mcp-context-forge-632,empty,0,190.1,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,reata__sqllineage-723,empty,0,185.5,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,BQSKit__bqskit-337,empty,0,183.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,canonical__operator-1599,empty,0,178.0,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,wireservice__csvkit-1274,empty,0,178.2,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,vprusso__toqito-1484_interface,empty,0,184.6,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,aristanetworks__anta-1113,empty,0,188.9,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,apache__iceberg-python-3295,empty,0,206.6,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,galileo-galilei__kedro-mlflow-629,empty,0,179.8,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,scrapy__scrapy-7351_interface,empty,0,185.0,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,python-scim__scim2-models-139_interface,empty,0,200.5,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,jazzband__tablib-613,empty,0,183.0,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,microsoft__graphrag-1944,empty,0,195.2,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,more-itertools__more-itertools-1028,empty,0,177.8,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,certbot__certbot-10283,empty,0,189.8,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,lincc-frameworks__nested-pandas-425,empty,0,185.1,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,lmstudio-ai__lmstudio-python-110,empty,0,171.0,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,theupdateframework__python-tuf-2808,empty,0,188.1,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,prjemian__spec2nexus-315,empty,0,188.6,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,microsoft__fabric-cicd-394,empty,0,198.1,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,python-markdown__markdown-1587,empty,0,172.3,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rthalley__dnspython-1206,empty,0,182.1,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,pallets__click-3239,empty,0,177.9,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,Ljzd-PRO__KToolBox-302,empty,0,182.6,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,networkx__networkx-8055,empty,0,200.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,hynek__svcs-140,empty,0,173.2,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,labgrid-project__labgrid-1591,empty,0,191.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,niconoe__pyinaturalist-643,empty,0,187.0,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,pyinfra-dev__pyinfra-1630,empty,0,188.3,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,python-babel__babel-1196,empty,0,172.9,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,python-control__python-control-1133,empty,0,188.3,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,litestar-org__polyfactory-643,empty,0,171.9,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,ASPP__pelita-863,empty,0,182.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,pab1it0__prometheus-mcp-server-76,empty,0,192.2,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,aeye-lab__pymovements-1408,empty,0,179.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,pdfminer__pdfminer.six-1121,empty,0,189.4,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,geopandas__geopandas-3591,empty,0,195.9,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,slackapi__python-slack-sdk-1703,empty,0,183.5,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,ome-zarr-models__ome-zarr-models-py-206,empty,0,171.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,systemd__mkosi-3586,empty,0,171.9,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,yt-project__unyt-593,empty,0,181.4,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,idaholab__MontePy-850,empty,0,177.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,simpeg__simpeg-1621,empty,0,197.4,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,scipp__plopp-513,empty,0,183.8,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,Spenhouet__confluence-markdown-exporter-92,empty,0,180.5,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,atsushisakai__pythonrobotics-1168,empty,0,177.1,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,cekit__cekit-937,empty,0,173.8,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,stravalib__stravalib-709_interface,empty,0,181.9,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,ucfopen__canvasapi-716,empty,0,182.2,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,quantumlib__Cirq-7434,empty,0,193.8,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,dpkp__kafka-python-2612,empty,0,179.2,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,casbin__pycasbin-392,empty,0,174.4,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,pysmt__pysmt-812,empty,0,179.8,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,fsspec__filesystem_spec-1829,empty,0,195.6,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,vndee__llm-sandbox-101,empty,0,178.2,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,sdv-dev__copulas-473,empty,0,185.9,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA

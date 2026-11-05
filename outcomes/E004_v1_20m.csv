@@ -1,0 +1,13 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_14258,wrong,508,749.6,24,26,
+r1,fastapi_14372,pass,1489,729.1,20,22,
+r1,fastapi_14986,empty,0,1176.2,40,42,
+r1,fastapi_15661,wrong,2483,1245.7,15,15,Agent exceeded session timeout (20.0 min)
+r1,fastapi_15800,wrong,1442,1233.0,39,40,Agent exceeded session timeout (20.0 min)
+r1,requests_7309,pass,692,667.3,16,18,
+r1,requests_7315,wrong,1176,761.1,24,26,Failed to apply test_patch: git apply /tmp/tmp7ldbu50d.patch failed (1): error: 
+r1,rich_3043,wrong,468,1240.2,28,28,Agent exceeded session timeout (20.0 min)
+r1,rich_3105,empty,0,1218.4,24,24,Agent exceeded session timeout (20.0 min)
+r1,rich_3468,empty,0,1216.0,28,28,Agent exceeded session timeout (20.0 min)
+r1,rich_3777,pass,1359,847.2,27,29,
+r1,rich_3944,empty,0,1215.6,15,15,Agent exceeded session timeout (20.0 min)

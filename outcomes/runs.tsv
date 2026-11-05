@@ -1,0 +1,109 @@
+run	agent	task_runs	passed
+E001_sample_dev12		12	3
+E002_v1_dev12		12	2
+E003_sample_20m		12	5
+E004_v1_20m		12	3
+E005_v2_editbug		2	1
+E007_sample_20m		12	4
+E008_v3_20m		12	4
+E009_v3	c432a10:submissions/v3 (pre-restructure)	12	4
+E010_v4	c432a10:submissions/v4 (pre-restructure)	12	6
+E011_v5_smoke		1	1
+E012_v4	c432a10:submissions/v4 (pre-restructure)	12	4
+E013_v5	agent-v5 (== c432a10:submissions/v5)	12	8
+E014_v5	agent-v5 c8c5acb	12	2
+E015_v6	agent-v6 4c8ba41	12	4
+E016_v7_vllm	agent-v7 e5ced63	12	1
+E017_v7off_vllm	agent-v7 with include_thoughts:false (thinking-off check on vLLM)	12	0
+E018_v8wip_vllm	WORKTREE e71f5ad	12	2
+E019_v8hidden_vllm	v8 wip efaea4b with include_thoughts:false + thinking_budget:4096 (top-notebook setting)	12	0
+E020_v8narrow_vllm	HEAD 9a05d35	36	11
+E021_v9_vllm	agent-v9 7a9f48c	8	0
+E022_v9_single	agent-v9 7a9f48c	1	1
+E023_v10_vllm	agent-v10 87a9344	36	10
+E024_v11_vllm	agent-v11 4a86107	36	13
+E025_v12_vllm	agent-v12 01cfd5f	36	11
+E026_v12split_vllm	agent-v12 01cfd5f	36	9
+E027_v13_vllm	agent-v13 186e4f6	36	11
+E028_v13_vllm	agent-v13 186e4f6	36	13
+E029_v13b512_vllm	agent-v13 186e4f6	36	16
+E030_hyperb512_vllm	agent-v13 186e4f6	36	14
+E031_v13b512_zeroLoRA	agent-v13 186e4f6	24	11
+E032_v13b512_base	agent-v13 186e4f6	36	16
+E033_v13b512_rft1	agent-v13 186e4f6	36	17
+E034_v14_eval20	agent-v14 f75963c	60	24
+E035_v15_eval20	agent-v15 d0fcf7c	60	22
+E036_v14_eval113	agent-v14 f75963c	226	81
+E037_v16_eval113	agent-v16 e314d8b	226	92
+E038_v16_eval113	agent-v16 e314d8b	226	88
+E039_v17_eval113	agent-v17 5af5d6a	226	88
+E040_v16_eval113	agent-v16 e314d8b	226	93
+E041_v17b_eval113	agent-v17b 57a4e6b	226	96
+E042_v17b_kagglelike	agent-v17b 57a4e6b	113	46
+E043_v17b_kaggleslow	agent-v17b 57a4e6b	113	31
+E044_v18_kaggleslow	agent-v18 be974ad	113	18
+E045_v18tools_v17prompt	agent-v18 + agent-v17b prompts/system.md	113	24
+E048_v17b_kaggleslow	agent-v17b 57a4e6b	113	25
+E049_v18c_kaggleslow	agent-v18c 5cde5fb	113	25
+E053_v18c_kaggleslow	agent-v18c 5cde5fb	113	27
+E054_v18c_b256_kaggleslow	agent-v18c + thinking_budget 256	113	30
+E055_v18d_heldout	agent-v18d c0929a7	37	5
+E056_v18d_rft2_heldout	agent-v18d + adapters/rft2	37	8
+E057_v18d_kaggleslow	agent-v18d c0929a7	113	26
+E058_v19_kaggleslow	agent-v19 1e82cc0	113	25
+E059_v18d_real	agent-v18d c0929a7	87	37
+E060_v19b_real	agent-v19b 2e3f5cb	90	36
+E061_v19b512_real	agent-v19b 2e3f5cb + thinking_budget 512	91	34
+E062_v20_ho35	agent-v20 563d3a7	37	16
+E063_v20rft3_ho35	agent-v20 563d3a7 + adapters/rft3	37	14
+E064_v20b_real	agent-v20b 86acd70	113	43
+E065_v21_real	agent-v21 d862d59	113	43
+E066_v21b_real	agent-v21b b3d48f2	113	42
+E067_pub018_real	public bundle verracodeguacas/gemma-4-agent-budget-fit-single-agent (LB 0.18/0.17/0.15/0.12)	113	40
+E068_v20b_real	agent-v20b 86acd70	113	41
+E069_v22_real	agent-v22 c98bd1a	113	46
+E070_v22_real	agent-v22 c98bd1a	113	46
+E071_v23_real	agent-v23 7bfab80	19	8
+E072_v23b_real	agent-v23b b05c1f9	113	49
+E073_v24_real	agent-v24 f454655	113	47
+E074_neb_v24_smoke	agent-v24 f454655	16	7
+E075_neb_v24_base	agent-v24 f454655	113	45
+E076_neb_v24_unseen	agent-v24 f454655	99	34
+E077_neb_v25_unseen	agent-v25 beaf98e	97	28
+E078_neb_v25_ccs	agent-v25 beaf98e	33	16
+E079_neb_v26_ccs	agent-v26 d208ed4	33	17
+E080_bundle_unseen	public bundle verracodeguacas/gemma-4-agent-budget-fit-single-agent (pulled 2026-10-12, identical to E067)	99	34
+E081_v24_unseen_rerun	agent-v24 f454655 (rerun of E076 under normal machine load)	99	34
+E082_ds_v4pro_eval113	agent-v24 driven by deepseek-v4-pro (DeepSeek API) via scripts/slow_proxy.py, paced 35/1400 (teacher ceiling, note 23)	113	49
+E082_smoke	agent-v24 driven by deepseek-v4-pro via scripts/slow_proxy.py (teacher ceiling smoke)	3	1
+E083_flash_v24_paced	agent-v24 unchanged, model deepseek-flash (DeepSeek-V4.1-Flash API), paced 35/1400, 8 min / 28 calls (run A, note 23 follow-up)	113	50
+E084_flash_v24_generous	agent-v24 with flow budget (TARGET_CALLS 86, TIME_BUDGET_S 1780, TASK_MAX_CALLS 100) and prompt scaled to 30 min / 100 calls; model deepseek-flash, unpaced (run B)	113	67
+E085_flash_bundle_generous	public Budget-Fit bundle with prompt budgets scaled to 100 calls / 30 min (10->36, 12->43, 20->71); model deepseek-flash, unpaced (run C)	113	75
+E086_v27_eval113	agent-v27 9ffe781	113	46
+E087_v27_unseen	agent-v27 9ffe781	99	35
+E088_handoff_ours	E084_flash_v24_generous agent; DeepSeek Flash exploration from E084_flash_v24_generous replayed up to its first edit, then Gemma 4 31B (paced 35/1400) continues (handoff)	14	9
+E089_handoff_stock	E085_flash_bundle_generous agent; DeepSeek Flash exploration from E085_flash_bundle_generous replayed up to its first edit, then Gemma 4 31B (paced 35/1400) continues (handoff)	20	6
+E090_handoff_ours_info	E084_flash_v24_generous agent; DeepSeek Flash tool calls from E084_flash_v24_generous replayed up to its first edit WITHOUT its reasoning or text (--strip-reasoning), then Gemma 4 31B continues	14	6
+E091_handoff_stock_info	E085_flash_bundle_generous agent; DeepSeek Flash tool calls from E085_flash_bundle_generous replayed up to its first edit WITHOUT its reasoning or text (--strip-reasoning), then Gemma 4 31B continues	20	6
+E092_gemma_generous_23	E084 agent (v24, flow budget and prompt scaled to 30 min / 100 calls); model Gemma 4 31B paced 35/1400: can Gemma find the evidence itself given time?	23	4
+E093_v28_screen23	agent-v28 487b4ac	23	1
+E094_v28b_screen23	agent-v28b 7b768bd	23	1
+E095_v30_unseen	agent-v30 (agents/stock)	99	7
+E096_v30ds1_unseen	agent-v30 + LoRA ds1 (DeepSeek stock-tools trajectories, recall turns masked)	99	2
+E097_v31b_e4b	E097_v31b_e4b: agent-v31b:agents/stock with model gemma-4-e4b-it-qat-w4a16-ct	6	0
+E098_v27_e4b	E098_v27_e4b: agent-v27 with model gemma-4-e4b-it-qat-w4a16-ct	6	1
+E099_v27e_e4b	E099_v27e_e4b: agent-v27e (v27 + tool-call-only rule, model gemma-4-e4b-it-qat-w4a16-ct)	6	0
+E100_v31b_e4b	E100_v31b_e4b: agent-v31b:agents/stock, model model: gemma-4-e4b-it-qat-w4a16-ct; local 30 min ~ Kaggle 4 min for E4B (probe: Mac ~8x slower)	18	2
+E101_v27e_e4b	E101_v27e_e4b: agent-v27e, model model: gemma-4-e4b-it-qat-w4a16-ct; local 30 min ~ Kaggle 4 min for E4B (probe: Mac ~8x slower)	18	3
+E102_v27f_e4b	E102_v27f_e4b: agent-v27f (model gemma-4-e4b-it-qat-w4a16-ct, call_form full); local 30 min	18	2
+E103_v32	E103_v32: agent-v32 (agents/stock), Nebius paced 35/1400	38	18
+E104_v33b	E104_v33b: agent-v33b (agents/stock), Nebius paced 35/1400	38	16
+E105_v34	E105_v34: agent-v34 (agents/stock), Nebius paced 35/1400	38	16
+E106_v32	agent-v32:agents/stock 539a451	38	13
+E107_v35	agent-v35:agents/stock 49e7bc1	38	12
+E108_v32	agent-v32:agents/stock 539a451	38	10
+E109_v36	agent-v36:agents/stock 4b98c32	38	13
+E110_v37	agent-v37:agents/stock 9cac7ef	38	15
+E111_v38	agent-v38:agents/scouts 534efe3	38	13
+E112_v37	agent-v37:agents/stock 9cac7ef	38	9
+E113_v38b	agent-v38b:agents/scouts f6b06e4	38	9

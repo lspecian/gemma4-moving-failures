@@ -1,0 +1,37 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_15661,empty,0,339.2,12,13,Agent exceeded session timeout (5.0 min)
+r1,fastapi_14986,wrong,766,394.0,8,9,Agent exceeded session timeout (5.0 min)
+r1,requests_7315,pass,522,235.7,10,12,
+r1,requests_7309,pass,692,175.9,5,7,
+r1,fastapi_14258,empty,0,310.4,14,14,Agent exceeded session timeout (5.0 min)
+r1,fastapi_14372,pass,1352,343.9,20,24,
+r1,rich_3944,wrong,445,329.2,9,12,
+r1,fastapi_15800,empty,0,327.1,15,15,Agent exceeded session timeout (5.0 min)
+r1,rich_3777,empty,0,323.1,12,12,Agent exceeded session timeout (5.0 min)
+r1,rich_3468,pass,619,352.1,16,17,
+r1,rich_3105,wrong,371,354.2,17,20,
+r1,rich_3043,pass,449,361.5,11,14,
+r2,fastapi_15661,empty,0,312.4,11,13,Agent exceeded session timeout (5.0 min)
+r2,fastapi_14986,pass,2246,350.2,8,12,
+r2,requests_7315,pass,524,232.9,8,10,
+r2,requests_7309,pass,692,233.2,7,9,
+r2,fastapi_14258,wrong,512,338.6,11,15,
+r2,fastapi_14372,empty,0,334.8,14,14,Agent exceeded session timeout (5.0 min)
+r2,rich_3944,wrong,445,368.3,10,13,
+r2,fastapi_15800,empty,0,319.4,11,11,Agent exceeded session timeout (5.0 min)
+r2,rich_3777,empty,0,354.2,13,13,Agent exceeded session timeout (5.0 min)
+r2,rich_3468,empty,0,345.2,18,18,Agent exceeded session timeout (5.0 min)
+r2,rich_3105,empty,0,134.7,5,6,Sandbox execution error: Tool 'search_similar_code' not found. Available tools: 
+r2,rich_3043,pass,449,245.2,11,13,
+r3,fastapi_15661,empty,0,338.9,11,12,Agent exceeded session timeout (5.0 min)
+r3,fastapi_14986,wrong,1873,380.4,6,7,Agent exceeded session timeout (5.0 min)
+r3,requests_7315,pass,528,203.2,8,10,
+r3,requests_7309,pass,692,203.4,6,8,
+r3,fastapi_14258,empty,0,366.1,17,20,
+r3,fastapi_14372,pass,524,314.3,13,16,
+r3,rich_3944,empty,0,332.2,9,10,Agent exceeded session timeout (5.0 min)
+r3,fastapi_15800,empty,0,319.7,19,20,Agent exceeded session timeout (5.0 min)
+r3,rich_3777,empty,0,334.8,12,13,Agent exceeded session timeout (5.0 min)
+r3,rich_3468,empty,0,336.7,9,10,Agent exceeded session timeout (5.0 min)
+r3,rich_3105,empty,0,319.3,12,12,Agent exceeded session timeout (5.0 min)
+r3,rich_3043,pass,449,335.3,9,9,

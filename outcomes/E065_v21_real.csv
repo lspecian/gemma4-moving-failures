@@ -1,0 +1,114 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_14258,wrong,508,136.5,15,17,
+r1,fastapi_13920,wrong,2314,266.5,29,29,Agent exceeded session timeout (4.0 min)
+r1,fastapi_12942,pass,561,220.6,20,22,
+r1,fastapi_14099,empty,0,254.7,33,34,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14372,pass,653,165.2,17,20,
+r1,fastapi_14349,wrong,512,155.4,14,16,
+r1,fastapi_11355,empty,0,248.1,26,29,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14306,wrong,1914,258.5,34,34,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14458,empty,0,248.0,18,18,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14448,empty,0,247.3,21,22,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14455,empty,0,248.1,32,37,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14430,pass,1551,257.4,22,35,
+r1,fastapi_14361,pass,544,100.5,9,11,
+r1,fastapi_13207,empty,0,247.8,26,28,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14360,pass,635,167.6,12,15,
+r1,fastapi_14356,pass,924,217.9,17,19,
+r1,fastapi_14419,empty,0,247.3,26,29,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14301,pass,685,256.7,23,25,
+r1,fastapi_14262,wrong,2990,257.4,23,23,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14266,empty,0,247.8,30,30,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14246,empty,0,247.5,32,34,Agent exceeded session timeout (4.0 min)
+r1,fastapi_13713,wrong,3003,256.9,29,30,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14371,wrong,936,259.2,26,26,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14297,pass,1189,128.3,12,14,
+r1,fastapi_14303,pass,745,174.3,13,17,
+r1,fastapi_13537,pass,866,167.8,15,18,
+r1,fastapi_13786,wrong,3015,257.1,24,25,Agent exceeded session timeout (4.0 min)
+r1,fastapi_11194,pass,993,194.6,15,17,
+r1,fastapi_15661,empty,0,251.7,26,33,Agent exceeded session timeout (4.0 min)
+r1,fastapi_15588,wrong,1552,264.3,25,27,Agent exceeded session timeout (4.0 min)
+r1,fastapi_15589,pass,908,263.2,21,22,
+r1,fastapi_15030,wrong,773,120.8,12,14,
+r1,fastapi_14962,empty,0,248.6,35,37,Agent exceeded session timeout (4.0 min)
+r1,fastapi_15280,wrong,3029,259.1,27,29,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14964,wrong,1720,157.4,16,19,
+r1,fastapi_15023,empty,0,248.5,31,32,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14986,wrong,1856,243.5,19,23,
+r1,fastapi_14978,wrong,1605,226.2,18,21,
+r1,fastapi_14873,empty,0,247.7,21,22,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14794,pass,791,93.3,9,11,
+r1,fastapi_14786,pass,404,82.6,5,10,
+r1,fastapi_14492,pass,391,108.5,13,15,
+r1,fastapi_14479,wrong,524,170.7,15,18,
+r1,fastapi_14463,pass,745,138.4,10,13,
+r1,fastapi_14609,wrong,7777,257.9,22,24,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14512,empty,0,248.4,23,23,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14487,empty,0,248.8,39,41,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14485,pass,974,256.0,28,35,
+r1,fastapi_14482,empty,0,77.7,1,16,Sandbox execution error: Tool 'search_similar_code' not found. Available tools: 
+r1,fastapi_14459,empty,0,248.4,24,27,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14791,pass,483,120.8,13,15,
+r1,fastapi_15800,empty,0,249.3,26,26,Agent exceeded session timeout (4.0 min)
+r1,fastapi_14605,wrong,2050,243.5,33,42,
+r1,fastapi_14583,wrong,887,124.5,14,16,
+r1,fastapi_14953,wrong,560,117.1,11,14,
+r1,fastapi_14616,pass,855,199.2,20,23,
+r1,requests_7427,pass,1034,167.6,13,16,
+r1,requests_7315,pass,522,157.8,17,19,
+r1,requests_7309,pass,692,114.7,10,13,
+r1,requests_7205,pass,503,99.7,10,12,
+r1,fastapi_9753,wrong,1258,249.9,26,28,
+r1,fastapi_5077,wrong,1769,227.3,26,28,
+r1,fastapi_9555,pass,1757,171.8,11,14,
+r1,fastapi_5624,wrong,1403,222.5,19,22,
+r1,fastapi_9425,pass,588,115.3,13,15,
+r1,httpx_3672,wrong,1864,255.4,36,36,Agent exceeded session timeout (4.0 min)
+r1,requests_6644,pass,526,152.5,18,20,
+r1,rich_3180,wrong,640,250.5,25,30,
+r1,rich_3468,empty,0,247.8,31,32,Agent exceeded session timeout (4.0 min)
+r1,rich_3296,pass,640,175.7,18,20,
+r1,rich_3454,pass,656,167.4,19,23,
+r1,rich_3469,empty,0,247.5,33,34,Agent exceeded session timeout (4.0 min)
+r1,rich_3052,wrong,5179,257.0,29,32,Agent exceeded session timeout (4.0 min)
+r1,rich_3278,pass,319,213.7,17,20,
+r1,rich_2943,pass,400,90.2,13,15,
+r1,rich_2725,pass,609,163.7,15,17,
+r1,rich_3105,empty,0,255.8,24,26,
+r1,rich_3130,pass,856,232.0,25,28,
+r1,rich_3043,pass,449,242.9,26,30,
+r1,rich_3067,pass,655,107.8,13,15,
+r1,rich_3006,pass,558,116.2,12,14,
+r1,rich_3064,pass,1164,168.8,18,20,
+r1,rich_3063,pass,1152,256.2,26,26,
+r1,rich_3061,wrong,1516,236.5,21,23,
+r1,rich_4070,empty,0,21.9,0,4,Agent completed execution without calling submit_patch.
+r1,rich_4077,pass,396,215.5,21,23,
+r1,rich_4076,wrong,1498,237.2,36,45,
+r1,rich_4075,wrong,905,222.2,24,28,
+r1,rich_4006,wrong,456,463.2,14,16,
+r1,rich_3718,wrong,391,71.5,9,11,
+r1,rich_3934,empty,0,248.1,32,33,Agent exceeded session timeout (4.0 min)
+r1,rich_3953,wrong,599,256.8,27,36,Agent exceeded session timeout (4.0 min)
+r1,rich_3944,wrong,2261,232.5,26,29,
+r1,rich_3942,empty,0,247.8,35,37,Agent exceeded session timeout (4.0 min)
+r1,rich_3938,empty,0,248.1,32,32,Agent exceeded session timeout (4.0 min)
+r1,rich_3882,pass,503,99.5,14,16,
+r1,rich_3894,pass,790,95.4,9,11,
+r1,rich_3935,wrong,620,226.1,21,26,
+r1,rich_3905,pass,627,104.9,12,14,
+r1,rich_3930,empty,0,248.0,28,32,Agent exceeded session timeout (4.0 min)
+r1,rich_3777,pass,2560,258.4,27,33,
+r1,rich_3782,wrong,498,258.4,25,27,Agent exceeded session timeout (4.0 min)
+r1,rich_3772,wrong,2118,535.9,21,23,
+r1,rich_3675,wrong,723,87.2,9,11,
+r1,rich_3676,wrong,1176,190.8,22,28,
+r1,rich_3518,pass,529,75.8,9,11,
+r1,rich_3535,wrong,465,91.7,9,11,
+r1,rich_3521,empty,0,248.2,20,20,Agent exceeded session timeout (4.0 min)
+r1,rich_3506,wrong,738,212.6,16,18,
+r1,rich_3480,wrong,490,314.3,32,33,Agent exceeded session timeout (4.0 min)
+r1,rich_3471,wrong,599,115.9,13,16,
+r1,rich_3470,empty,0,248.1,32,36,Agent exceeded session timeout (4.0 min)
+r1,rich_4079,empty,0,247.3,29,30,Agent exceeded session timeout (4.0 min)

@@ -1,0 +1,10 @@
+name: swe_agent_v24
+description: Single issue-fixing agent with a narrow interface - bounded helper scripts only, no raw shell or file reader.
+model: gemma-4-31b-it-qat-w4a16-ct
+instruction: !include prompts/system.md
+skills:
+  - skills/repo-tools
+tools:
+  - get_status
+  - submit_patch
+generate_content_config: !include configs/sampling.yaml

@@ -1,0 +1,7 @@
+data/
+results/*
+!results/_analysis/
+logs/
+.venv*/
+__pycache__/
+*.pyc

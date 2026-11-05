@@ -1,0 +1,7 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_12942,empty,0,51.3,0,4,Agent completed execution without calling submit_patch.
+r1,fastapi_11355,empty,0,51.3,0,4,Agent completed execution without calling submit_patch.
+r1,fastapi_13207,pass,1008,458.9,15,27,
+r1,fastapi_13713,empty,0,77.7,0,4,Agent completed execution without calling submit_patch.
+r1,fastapi_13537,empty,0,416.9,5,11,
+r1,fastapi_11194,empty,0,107.7,0,4,Agent completed execution without calling submit_patch.

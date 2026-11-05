@@ -1,0 +1,100 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,sktime__skpro-574,pass,1141,445.6,22,25,
+r1,projectmesa__mesa-2755,wrong,1831,447.0,23,25,
+r1,urllib3__urllib3-3601,wrong,506,450.2,25,28,
+r1,keephq__keep-5101,wrong,1562,668.7,28,31,Agent exceeded session timeout (8.0 min)
+r1,scientific-python__docstub-123,wrong,1413,586.0,22,25,
+r1,Archmonger__django-dbbackup-631,wrong,953,505.6,15,17,
+r1,meltano__sdk-3091,pass,599,414.2,11,13,
+r1,astronomy-commons__hats-648,wrong,1110,346.2,17,19,
+r1,spack__spack-51723,wrong,469,353.8,14,16,
+r1,pvlib__pvlib-python-2400,pass,729,512.4,19,23,
+r1,dwavesystems__dwave-system-582,empty,0,506.2,25,28,Agent exceeded session timeout (8.0 min)
+r1,apiflask__apiflask-659,pass,642,74.3,8,10,
+r1,cta-observatory__ctapipe-2732,wrong,539,712.5,24,27,
+r1,spdx__tools-python-855,wrong,1376,603.4,18,22,
+r1,jelmer__dulwich-1500,empty,0,348.1,0,4,Agent completed execution without calling submit_patch.
+r1,useblocks__sphinx-needs-1428,wrong,2573,972.2,21,23,Agent exceeded session timeout (8.0 min)
+r1,litestar-org__litestar-4128,wrong,626,743.5,21,22,Agent exceeded session timeout (8.0 min)
+r1,mem0ai__mem0-2774,wrong,1439,832.1,20,22,Agent exceeded session timeout (8.0 min)
+r1,beetbox__beets-5705,wrong,675,736.3,13,17,
+r1,hynek__structlog-720,wrong,986,165.3,9,11,
+r1,a2aproject__a2a-python-576,wrong,3728,606.1,22,24,
+r1,databricks__dbt-databricks-1428,wrong,1808,731.6,25,28,Agent exceeded session timeout (8.0 min)
+r1,holoviz__param-1073,wrong,1501,596.4,28,33,
+r1,PennyLaneAI__pennylane-7671,pass,623,446.3,19,22,
+r1,BrianPugh__cyclopts-633,pass,411,919.2,25,26,
+r1,MervinPraison__PraisonAI-518,empty,0,333.6,0,4,Agent completed execution without calling submit_patch.
+r1,browser-use__browser-use-1570,empty,0,730.5,18,19,Agent exceeded session timeout (8.0 min)
+r1,marshmallow-code__marshmallow-2925_interface,wrong,616,876.0,24,26,
+r1,pycqa__isort-2491,empty,0,700.7,15,15,Agent exceeded session timeout (8.0 min)
+r1,oemof__tespy-921,empty,0,636.4,28,32,Agent exceeded session timeout (8.0 min)
+r1,aws-powertools__powertools-lambda-python-7315,wrong,531,503.0,20,21,Agent exceeded session timeout (8.0 min)
+r1,jupyter__jupyter_client-1060,pass,1094,253.9,24,26,
+r1,schemathesis__schemathesis-3778,wrong,519,274.9,16,19,
+r1,google__adk-python-3088,wrong,1169,254.3,14,18,
+r1,python-attrs__attrs-1457,empty,0,412.8,28,38,
+r1,marketsquare__robotframework-robocop-1322,pass,708,212.4,24,26,
+r1,piskvorky__smart_open-889,empty,0,490.4,14,14,Agent exceeded session timeout (8.0 min)
+r1,sdv-dev__SDV-2709,wrong,1275,657.5,28,33,
+r1,delgan__loguru-1451,pass,3578,518.9,18,20,
+r1,theskumar__python-dotenv-563,wrong,586,612.5,15,17,
+r1,PyPSA__PyPSA-1414,empty,0,847.0,27,27,Agent exceeded session timeout (8.0 min)
+r1,con__nwb2bids-347_interface,empty,0,511.3,12,13,Agent exceeded session timeout (8.0 min)
+r1,MAIF__arta-50,pass,1072,642.0,22,24,
+r1,IBM__mcp-context-forge-632,pass,3470,833.2,19,21,
+r1,reata__sqllineage-723,empty,0,727.0,20,26,Agent exceeded session timeout (8.0 min)
+r1,BQSKit__bqskit-337,empty,0,669.7,9,9,Agent exceeded session timeout (8.0 min)
+r1,canonical__operator-1599,empty,0,765.0,28,43,Agent exceeded session timeout (8.0 min)
+r1,wireservice__csvkit-1274,wrong,1263,765.9,18,22,Agent exceeded session timeout (8.0 min)
+r1,vprusso__toqito-1484_interface,wrong,1695,718.2,16,18,Agent exceeded session timeout (8.0 min)
+r1,aristanetworks__anta-1113,wrong,754,708.9,12,17,
+r1,apache__iceberg-python-3295,pass,2110,902.6,10,12,
+r1,galileo-galilei__kedro-mlflow-629,pass,679,964.7,9,14,
+r1,scrapy__scrapy-7351_interface,empty,0,674.0,9,9,Agent exceeded session timeout (8.0 min)
+r1,python-scim__scim2-models-139_interface,empty,0,635.9,18,20,Agent exceeded session timeout (8.0 min)
+r1,jazzband__tablib-613,wrong,613,978.0,12,17,
+r1,microsoft__graphrag-1944,wrong,2946,921.8,22,26,Agent exceeded session timeout (8.0 min)
+r1,more-itertools__more-itertools-1028,pass,596,488.7,10,12,
+r1,certbot__certbot-10283,wrong,881,797.3,25,29,
+r1,lincc-frameworks__nested-pandas-425,pass,928,825.2,20,21,
+r1,lmstudio-ai__lmstudio-python-110,empty,0,633.9,17,27,Agent exceeded session timeout (8.0 min)
+r1,theupdateframework__python-tuf-2808,wrong,627,844.9,19,22,
+r1,prjemian__spec2nexus-315,wrong,726,774.3,15,16,Agent exceeded session timeout (8.0 min)
+r1,microsoft__fabric-cicd-394,wrong,1739,723.8,13,16,
+r1,python-markdown__markdown-1587,empty,0,600.0,17,17,Agent exceeded session timeout (8.0 min)
+r1,rthalley__dnspython-1206,empty,0,538.1,18,20,Agent exceeded session timeout (8.0 min)
+r1,pallets__click-3239,wrong,612,393.5,20,23,
+r1,Ljzd-PRO__KToolBox-302,pass,906,568.8,17,22,
+r1,networkx__networkx-8055,pass,1003,565.7,24,29,
+r1,hynek__svcs-140,pass,1605,496.8,19,21,
+r1,labgrid-project__labgrid-1591,pass,588,461.4,11,13,
+r1,niconoe__pyinaturalist-643,pass,813,580.5,15,15,
+r1,pyinfra-dev__pyinfra-1630,pass,2886,579.3,14,17,
+r1,python-babel__babel-1196,wrong,550,631.4,18,19,Agent exceeded session timeout (8.0 min)
+r1,python-control__python-control-1133,pass,1774,663.7,14,16,
+r1,litestar-org__polyfactory-643,pass,517,558.3,19,21,
+r1,ASPP__pelita-863,pass,461,594.9,25,28,
+r1,pab1it0__prometheus-mcp-server-76,wrong,824,685.9,14,15,Agent exceeded session timeout (8.0 min)
+r1,aeye-lab__pymovements-1408,wrong,2320,640.5,21,24,
+r1,pdfminer__pdfminer.six-1121,pass,589,313.0,11,13,
+r1,geopandas__geopandas-3591,pass,719,317.2,13,15,
+r1,slackapi__python-slack-sdk-1703,wrong,988,330.6,23,26,
+r1,ome-zarr-models__ome-zarr-models-py-206,pass,526,148.2,12,14,
+r1,systemd__mkosi-3586,pass,2838,447.8,28,32,
+r1,yt-project__unyt-593,wrong,522,645.9,24,28,
+r1,idaholab__MontePy-850,wrong,1611,335.8,19,21,
+r1,simpeg__simpeg-1621,empty,0,782.5,28,36,
+r1,scipp__plopp-513,wrong,356,407.7,14,17,
+r1,Spenhouet__confluence-markdown-exporter-92,wrong,909,253.0,10,12,
+r1,atsushisakai__pythonrobotics-1168,wrong,376,556.1,12,14,
+r1,cekit__cekit-937,pass,996,555.7,14,17,
+r1,stravalib__stravalib-709_interface,pass,1224,796.9,9,11,
+r1,ucfopen__canvasapi-716,pass,1593,727.1,17,20,
+r1,quantumlib__Cirq-7434,empty,0,617.9,20,29,Agent exceeded session timeout (8.0 min)
+r1,dpkp__kafka-python-2612,pass,1802,463.4,10,12,
+r1,casbin__pycasbin-392,empty,0,519.7,26,34,Agent exceeded session timeout (8.0 min)
+r1,pysmt__pysmt-812,pass,681,632.1,14,14,
+r1,fsspec__filesystem_spec-1829,pass,849,634.2,13,14,
+r1,vndee__llm-sandbox-101,wrong,451,563.0,25,27,
+r1,sdv-dev__copulas-473,wrong,1481,616.0,16,18,

@@ -1,0 +1,12 @@
+# scripts/lora_train.py on the GPU box (Linux, CUDA, Python 3.12). torch comes from the image (CUDA build).
+# Tested on CPU (macOS, torch 2.14.1) with exactly these versions; transformers/compressed-tensors match Kaggle's
+# wheelhouse (the scorer's vLLM 0.19.1 stack), peft is the version scripts/lora_hf_vs_vllm.py validated against vLLM.
+transformers==5.13.1
+compressed-tensors==0.15.0.1
+peft==0.18.1
+accelerate==1.15.0
+safetensors==0.8.0
+tokenizers==0.22.2
+huggingface-hub[hf_transfer]>=1.5,<2
+# trl is not used by lora_train.py (plain PyTorch loop with a masked, chunked, softcapped CE); pinned for notebooks.
+trl==1.14.1

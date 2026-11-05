@@ -1,0 +1,17 @@
+# Thinking ON: with thinking off the model loops on the same command and never edits (L001: 0/3 edits,
+# up to 53 identical calls). max_output_tokens caps thinking + output per turn: Kaggle generates ~12 tok/s,
+# so 1536 tokens bounds a turn to ~2 min. L001 D: median 136 tokens/turn, p90 649.
+temperature: 0.2
+top_p: 0.95
+# v22: 8192 (thinking 4096 + the call); prompt + max output must fit 32,768, so flow.CTX_LIMIT_TOKENS = 24,576.
+max_output_tokens: 8192
+thinking_config:
+  include_thoughts: true
+  # Hard thinking budget: vLLM ends the thinking after 512 tokens (thinking_token_budget, forwarded by
+  # adk_submission >= 0.2.12; the scorer's VllmServer enables --reasoning-config for gemma4). P016: stuck edit
+  # turns 17/105 -> 1/105.
+  # v18d: 256 (E053/E054 at Kaggle speed: 30 vs 27/113, empty patches 71 -> 60, replies -15% tokens; N006 probe:
+  # edit rate unchanged)
+  # v22: 4096, max_output 8192 (the public 0.18 bundle; forum 746250: full thinking solves 47-51/129 vs 35
+  # with thoughts hidden; 256 was chosen at the wrong 12 tok/s emulation)
+  thinking_budget: 4096

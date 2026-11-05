@@ -1,0 +1,15 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_14986,wrong,1642,699.3,77,58,
+r1,fastapi_11355,wrong,2054,556.1,63,60,
+r1,fastapi_14485,pass,1629,377.4,46,46,
+r1,fastapi_14482,pass,2239,348.4,37,28,
+r1,fastapi_5624,pass,747,398.2,28,24,
+r1,fastapi_14266,wrong,2446,696.3,94,109,
+r1,fastapi_14246,wrong,1478,666.2,83,83,
+r1,rich_3942,wrong,880,712.2,72,69,
+r1,fastapi_14605,wrong,565,1816.5,76,58,Agent exceeded session timeout (30.0 min)
+r1,rich_3180,pass,1031,909.1,67,60,
+r1,rich_3468,wrong,7411,534.8,46,40,
+r1,rich_3772,pass,1529,685.3,60,50,
+r1,rich_3521,empty,0,1807.4,13,27,Agent exceeded session timeout (30.0 min)
+r1,rich_3506,pass,508,277.2,17,18,

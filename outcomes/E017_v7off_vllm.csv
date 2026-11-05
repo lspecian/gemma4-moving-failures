@@ -1,0 +1,13 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_15661,empty,0,88.6,15,16,"Sandbox execution error: Tool 'edit.py' not found. Available tools: run_command,"
+r1,fastapi_14986,empty,0,59.9,7,8,"Sandbox execution error: Tool 'edit.py' not found. Available tools: run_command,"
+r1,requests_7315,empty,0,31.0,3,4,"Sandbox execution error: Tool 'show.py' not found. Available tools: run_command,"
+r1,requests_7309,empty,0,126.4,30,31,"Sandbox execution error: Tool 'edit.py' not found. Available tools: run_command,"
+r1,fastapi_14258,wrong,543,401.4,40,43,
+r1,fastapi_14372,empty,0,144.6,11,12,"Sandbox execution error: Tool 'edit.py' not found. Available tools: run_command,"
+r1,rich_3944,empty,0,174.8,39,40,"Sandbox execution error: Tool 'edit.py' not found. Available tools: run_command,"
+r1,fastapi_15800,empty,0,212.5,39,41,
+r1,rich_3777,empty,0,95.3,31,32,"Sandbox execution error: Tool 'edit.py' not found. Available tools: run_command,"
+r1,rich_3468,empty,0,81.4,30,31,"Sandbox execution error: Tool 'edit.py' not found. Available tools: run_command,"
+r1,rich_3105,empty,0,110.5,39,41,
+r1,rich_3043,empty,0,72.8,16,16,Sandbox execution error: litellm.ContextWindowExceededError: litellm.BadRequestE

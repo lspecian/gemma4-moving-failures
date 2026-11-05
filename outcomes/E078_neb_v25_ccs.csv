@@ -1,0 +1,34 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,sktime__skpro-574,pass,904,348.5,22,24,
+r1,projectmesa__mesa-2755,empty,0,496.2,23,37,Agent exceeded session timeout (8.0 min)
+r1,scientific-python__docstub-123,wrong,1507,488.6,28,32,
+r1,astronomy-commons__hats-648,wrong,728,255.9,15,18,
+r1,pvlib__pvlib-python-2400,pass,729,349.8,22,25,
+r1,dwavesystems__dwave-system-582,wrong,1405,479.4,28,35,
+r1,apiflask__apiflask-659,pass,642,87.0,7,9,
+r1,mem0ai__mem0-2774,wrong,1439,297.5,15,18,
+r1,a2aproject__a2a-python-576,wrong,456,371.3,23,25,
+r1,PennyLaneAI__pennylane-7671,pass,623,214.7,15,18,
+r1,BrianPugh__cyclopts-633,pass,524,236.3,27,37,
+r1,MervinPraison__PraisonAI-518,empty,0,46.4,0,4,Agent completed execution without calling submit_patch.
+r1,aws-powertools__powertools-lambda-python-7315,wrong,811,216.4,22,24,
+r1,jupyter__jupyter_client-1060,wrong,769,161.9,11,13,
+r1,marketsquare__robotframework-robocop-1322,pass,643,255.0,23,25,
+r1,BQSKit__bqskit-337,empty,0,488.4,14,14,Agent exceeded session timeout (8.0 min)
+r1,galileo-galilei__kedro-mlflow-629,pass,679,171.7,9,11,
+r1,more-itertools__more-itertools-1028,pass,596,77.1,8,10,
+r1,lincc-frameworks__nested-pandas-425,pass,818,503.9,27,29,
+r1,Ljzd-PRO__KToolBox-302,pass,1617,239.1,15,19,
+r1,hynek__svcs-140,pass,1643,311.2,21,25,
+r1,labgrid-project__labgrid-1591,pass,588,323.6,17,19,
+r1,pyinfra-dev__pyinfra-1630,wrong,1275,495.4,22,25,Agent exceeded session timeout (8.0 min)
+r1,python-control__python-control-1133,pass,416,211.7,15,19,
+r1,ASPP__pelita-863,pass,503,195.7,19,23,
+r1,pdfminer__pdfminer.six-1121,pass,589,98.5,10,13,
+r1,slackapi__python-slack-sdk-1703,wrong,2418,283.2,16,19,
+r1,Spenhouet__confluence-markdown-exporter-92,wrong,909,104.2,10,12,
+r1,stravalib__stravalib-709_interface,pass,1139,345.8,11,13,
+r1,ucfopen__canvasapi-716,wrong,998,315.9,13,15,
+r1,dpkp__kafka-python-2612,wrong,592,364.9,23,25,
+r1,pysmt__pysmt-812,empty,0,486.8,21,23,Agent exceeded session timeout (8.0 min)
+r1,fsspec__filesystem_spec-1829,wrong,817,416.2,10,12,

@@ -1,0 +1,13 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,requests_7315,wrong,1531,983.2,27,31,Failed to apply test_patch: git apply /tmp/tmprbpl3d3v.patch failed (1): error: 
+r1,rich_3043,empty,0,1206.5,20,22,Agent exceeded session timeout (20.0 min)
+r1,rich_3468,empty,0,1208.1,23,25,Agent exceeded session timeout (20.0 min)
+r1,rich_3777,empty,0,1206.6,34,35,Agent exceeded session timeout (20.0 min)
+r2,requests_7315,wrong,1316,910.9,22,26,Failed to apply test_patch: git apply /tmp/tmp5bilyns3.patch failed (1): error: 
+r2,rich_3043,pass,449,1239.8,15,17,
+r2,rich_3468,empty,0,1208.6,22,24,Agent exceeded session timeout (20.0 min)
+r2,rich_3777,empty,0,1207.2,28,30,Agent exceeded session timeout (20.0 min)
+r3,requests_7315,pass,522,897.7,16,20,
+r3,rich_3043,empty,0,1207.8,24,26,Agent exceeded session timeout (20.0 min)
+r3,rich_3468,empty,0,1216.3,20,22,Agent exceeded session timeout (20.0 min)
+r3,rich_3777,empty,0,1224.6,34,36,Agent exceeded session timeout (20.0 min)

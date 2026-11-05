@@ -1,0 +1,38 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_15661,wrong,2011,190.7,22,24,
+r1,fastapi_14986,wrong,1752,294.8,18,78,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14978,wrong,3638,265.9,29,31,
+r1,requests_7315,empty,0,44.5,3,4,Sandbox execution error: Tool 'run_skill_skill_script' not found. Available tool
+r1,requests_7205,pass,503,63.7,7,9,
+r1,rich_4070,wrong,4074,287.6,36,36,Agent exceeded session timeout (4.5 min)
+r1,rich_4077,pass,409,98.4,12,14,
+r1,rich_4079,pass,632,194.0,23,26,
+r1,rich_4076,empty,0,277.6,14,38,Agent exceeded session timeout (4.5 min)
+r1,rich_4075,wrong,441,111.8,14,16,
+r1,rich_4006,wrong,987,422.1,13,15,
+r1,fastapi_14873,pass,1681,198.0,15,18,
+r1,fastapi_14786,pass,404,62.0,6,8,
+r1,fastapi_14463,pass,745,102.5,7,9,
+r1,fastapi_12942,wrong,747,175.6,18,20,
+r1,fastapi_14609,wrong,4697,287.8,32,33,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14482,wrong,1424,288.3,18,106,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14455,wrong,1309,287.4,18,109,Agent exceeded session timeout (4.5 min)
+r1,fastapi_9753,pass,1497,220.8,23,25,
+r1,fastapi_14361,wrong,677,63.2,6,9,
+r1,fastapi_14356,wrong,802,106.0,11,13,
+r1,fastapi_14419,wrong,762,287.1,22,78,Agent exceeded session timeout (4.5 min)
+r1,fastapi_9425,pass,544,151.8,17,19,
+r1,fastapi_13713,wrong,3145,156.0,22,24,
+r1,rich_3942,wrong,588,285.5,31,65,Agent exceeded session timeout (4.5 min)
+r1,rich_3938,wrong,2740,286.1,40,46,Agent exceeded session timeout (4.5 min)
+r1,rich_3882,pass,503,80.9,8,10,
+r1,fastapi_14791,pass,483,142.2,15,17,
+r1,fastapi_14605,wrong,2311,174.8,21,23,
+r1,fastapi_14303,pass,745,67.6,5,7,
+r1,fastapi_14953,wrong,560,67.3,6,8,
+r1,rich_3296,pass,576,82.4,9,11,
+r1,rich_3469,wrong,556,85.0,10,12,
+r1,rich_2725,pass,1597,134.3,10,12,
+r1,rich_3064,pass,1012,79.9,7,9,
+r1,rich_3063,wrong,897,285.9,22,103,Agent exceeded session timeout (4.5 min)
+r1,rich_3061,wrong,1012,286.5,31,31,Agent exceeded session timeout (4.5 min)

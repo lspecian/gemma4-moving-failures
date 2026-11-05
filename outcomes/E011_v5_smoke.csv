@@ -1,0 +1,2 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,rich_3043,pass,449,1222.5,33,36,

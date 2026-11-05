@@ -1,0 +1,39 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_15661,wrong,1948,276.6,16,18,
+r1,fastapi_14962,wrong,1471,397.3,25,27,
+r1,fastapi_15280,empty,0,197.2,28,32,
+r1,fastapi_14986,wrong,2983,259.7,24,26,
+r1,requests_7427,wrong,1666,494.0,25,27,
+r1,requests_7205,pass,503,121.6,11,13,
+r1,rich_4070,wrong,6942,258.8,28,30,
+r1,rich_4077,pass,324,123.6,17,19,
+r1,fastapi_14794,pass,791,167.6,10,12,
+r1,fastapi_14479,wrong,524,118.6,11,13,
+r1,fastapi_14487,wrong,5068,245.9,26,28,
+r1,fastapi_14458,pass,3239,291.0,15,17,
+r1,fastapi_9753,pass,991,335.6,26,28,
+r1,fastapi_14430,empty,0,488.8,13,13,Agent exceeded session timeout (8.0 min)
+r1,fastapi_13207,empty,0,259.2,28,36,
+r1,fastapi_14356,pass,735,313.1,18,20,
+r1,fastapi_5624,wrong,1933,434.4,28,30,
+r1,fastapi_14266,empty,0,487.7,28,31,Agent exceeded session timeout (8.0 min)
+r1,fastapi_14246,wrong,1147,407.4,22,24,
+r1,rich_3718,wrong,389,268.8,22,24,
+r1,rich_3944,wrong,2007,261.2,16,18,
+r1,rich_3935,wrong,1913,420.0,28,30,
+r1,rich_3905,pass,627,144.7,23,25,
+r1,fastapi_14371,wrong,418,224.5,25,27,
+r1,fastapi_14583,wrong,823,434.5,28,31,
+r1,fastapi_14303,pass,745,144.4,12,14,
+r1,fastapi_13786,wrong,8539,450.0,28,30,
+r1,fastapi_14616,wrong,982,500.1,28,28,Agent exceeded session timeout (8.0 min)
+r1,fastapi_11194,pass,993,237.7,25,27,
+r1,rich_3180,wrong,1667,498.7,10,10,Agent exceeded session timeout (8.0 min)
+r1,rich_3782,wrong,899,327.8,21,23,
+r1,rich_3535,wrong,465,286.6,11,13,
+r1,rich_3506,empty,0,492.0,10,10,Agent exceeded session timeout (8.0 min)
+r1,rich_3454,pass,657,165.0,16,22,
+r1,rich_3470,wrong,749,403.8,28,29,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA
+r1,rich_3067,pass,655,351.9,25,25,
+r1,rich_3006,pass,558,151.8,22,25,
+r1,rich_3061,empty,0,183.7,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA

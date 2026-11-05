@@ -1,0 +1,39 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_15661,wrong,2650,910.3,15,25,Agent exceeded session timeout (8.0 min)
+r1,fastapi_14962,wrong,776,911.2,32,34,
+r1,fastapi_15280,empty,0,681.1,36,42,"Unexpected evaluation worker error: UnixHTTPConnectionPool(host='localhost', por"
+r1,fastapi_14986,wrong,1941,786.4,36,39,
+r1,requests_7427,wrong,998,569.5,9,11,
+r1,requests_7205,pass,503,562.6,7,9,
+r1,rich_4070,wrong,3160,568.1,36,38,
+r1,rich_4077,pass,423,566.2,22,24,
+r1,fastapi_14794,pass,791,361.4,12,14,
+r1,fastapi_14479,wrong,524,95.5,11,13,
+r1,fastapi_14487,wrong,5467,516.2,35,38,
+r1,fastapi_14458,pass,1361,302.1,23,25,
+r1,fastapi_9753,pass,965,826.6,34,36,
+r1,fastapi_14430,pass,1183,619.0,20,22,
+r1,fastapi_13207,empty,0,525.9,36,40,
+r1,fastapi_14356,wrong,1232,359.6,18,20,
+r1,fastapi_5624,pass,759,240.8,17,19,
+r1,fastapi_14266,empty,0,307.0,36,40,
+r1,fastapi_14246,wrong,1134,573.2,36,38,
+r1,rich_3718,pass,646,168.5,15,17,
+r1,rich_3944,wrong,1339,540.4,26,28,
+r1,rich_3935,empty,0,652.0,36,40,
+r1,rich_3905,pass,627,581.8,20,22,
+r1,fastapi_14371,wrong,11693,1085.0,28,28,Agent exceeded session timeout (8.0 min)
+r1,fastapi_14583,wrong,873,871.7,35,37,
+r1,fastapi_14303,pass,745,224.2,18,20,
+r1,fastapi_13786,wrong,5917,814.3,33,33,Agent exceeded session timeout (8.0 min)
+r1,fastapi_14616,empty,0,1013.8,35,36,"Unexpected evaluation worker error: UnixHTTPConnectionPool(host='localhost', por"
+r1,fastapi_11194,empty,0,300.0,0,0,"Unexpected evaluation worker error: UnixHTTPConnectionPool(host='localhost', por"
+r1,rich_3180,empty,0,300.0,0,0,"Unexpected evaluation worker error: UnixHTTPConnectionPool(host='localhost', por"
+r1,rich_3782,empty,0,300.0,0,0,"Unexpected evaluation worker error: UnixHTTPConnectionPool(host='localhost', por"
+r1,rich_3535,empty,0,300.0,0,0,"Unexpected evaluation worker error: UnixHTTPConnectionPool(host='localhost', por"
+r1,rich_3506,empty,0,300.0,0,0,"Unexpected evaluation worker error: UnixHTTPConnectionPool(host='localhost', por"
+r1,rich_3454,pass,657,844.1,22,26,
+r1,rich_3470,empty,0,866.1,36,40,
+r1,rich_3067,pass,655,536.8,12,14,
+r1,rich_3006,pass,558,589.7,16,18,
+r1,rich_3061,empty,0,609.8,0,0,Sandbox execution error: litellm.InternalServerError: InternalServerError: OpenA

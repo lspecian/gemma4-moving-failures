@@ -1,0 +1,9 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,requests_7315,empty,0,307.4,1,1,Agent exceeded session timeout (5.0 min)
+r1,requests_7309,empty,0,307.4,1,1,Agent exceeded session timeout (5.0 min)
+r1,fastapi_14986,empty,0,307.8,0,0,Agent exceeded session timeout (5.0 min)
+r1,fastapi_15661,empty,0,308.0,0,0,Agent exceeded session timeout (5.0 min)
+r1,rich_3944,empty,0,307.6,0,0,Agent exceeded session timeout (5.0 min)
+r1,fastapi_14372,empty,0,308.0,0,0,Agent exceeded session timeout (5.0 min)
+r1,fastapi_14258,empty,0,308.1,0,0,Agent exceeded session timeout (5.0 min)
+r1,fastapi_15800,empty,0,308.1,0,0,Agent exceeded session timeout (5.0 min)

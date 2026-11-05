@@ -1,0 +1,17 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_14258,wrong,512,105.6,14,16,
+r1,fastapi_13920,wrong,2153,287.2,26,30,
+r1,fastapi_12942,pass,569,330.6,23,26,
+r1,fastapi_14099,empty,0,266.7,9,80,Agent exceeded turns budget (80 turns)
+r1,fastapi_11355,wrong,611,283.0,24,26,
+r1,fastapi_13207,pass,1308,253.8,19,22,
+r1,fastapi_14301,pass,618,145.5,10,12,
+r1,fastapi_14262,empty,0,339.9,28,33,
+r1,fastapi_14266,empty,0,487.4,28,33,Agent exceeded session timeout (8.0 min)
+r1,fastapi_14246,empty,0,321.0,28,37,
+r1,fastapi_13713,empty,0,218.6,28,36,
+r1,fastapi_14297,pass,1208,296.9,13,15,
+r1,fastapi_14303,pass,745,111.7,8,10,
+r1,fastapi_13537,pass,826,219.4,10,12,
+r1,fastapi_13786,wrong,2328,323.4,24,28,
+r1,fastapi_11194,pass,993,288.2,12,17,

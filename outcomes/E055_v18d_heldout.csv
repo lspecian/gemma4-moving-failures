@@ -1,0 +1,38 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_14463,empty,0,285.1,5,7,Agent exceeded session timeout (4.5 min)
+r1,fastapi_12942,empty,0,284.9,8,8,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14455,empty,0,284.5,9,11,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14361,empty,0,284.4,7,7,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14356,empty,0,281.9,7,7,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14419,empty,0,281.6,9,9,Agent exceeded session timeout (4.5 min)
+r1,fastapi_13713,empty,0,281.3,10,10,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14303,pass,745,291.5,6,7,
+r1,fastapi_15661,empty,0,281.5,11,13,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14986,wrong,766,292.4,8,8,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14978,empty,0,281.5,14,14,Agent exceeded session timeout (4.5 min)
+r1,requests_7315,pass,524,287.8,9,12,
+r1,requests_7205,pass,503,224.6,9,11,
+r1,rich_4070,wrong,1361,288.9,11,11,Agent exceeded session timeout (4.5 min)
+r1,rich_4077,empty,0,279.1,11,11,Agent exceeded session timeout (4.5 min)
+r1,rich_4076,wrong,393,289.4,18,18,Agent exceeded session timeout (4.5 min)
+r1,rich_4075,empty,0,277.1,19,19,Agent exceeded session timeout (4.5 min)
+r1,rich_4006,wrong,943,586.6,6,6,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14873,wrong,1772,290.6,6,6,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14786,pass,404,195.7,6,11,
+r1,fastapi_14609,wrong,1084,287.8,11,11,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14482,wrong,437,288.5,10,10,Agent exceeded session timeout (4.5 min)
+r1,fastapi_9753,wrong,465,289.1,13,14,Agent exceeded session timeout (4.5 min)
+r1,fastapi_9425,empty,0,278.1,8,8,Agent exceeded session timeout (4.5 min)
+r1,rich_3942,empty,0,277.8,12,13,Agent exceeded session timeout (4.5 min)
+r1,rich_3938,empty,0,278.2,11,11,Agent exceeded session timeout (4.5 min)
+r1,rich_3882,empty,0,277.8,4,6,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14791,pass,483,427.2,7,8,
+r1,fastapi_14605,wrong,502,424.6,11,12,Agent exceeded session timeout (4.5 min)
+r1,fastapi_14953,empty,0,282.4,9,9,Agent exceeded session timeout (4.5 min)
+r1,rich_3296,empty,0,281.1,9,9,Agent exceeded session timeout (4.5 min)
+r1,rich_3469,empty,0,399.8,11,11,Agent exceeded session timeout (4.5 min)
+r1,rich_2725,empty,0,399.0,9,9,Agent exceeded session timeout (4.5 min)
+r1,rich_3064,empty,0,432.6,14,14,Agent exceeded session timeout (4.5 min)
+r1,rich_3063,empty,0,432.3,9,9,Agent exceeded session timeout (4.5 min)
+r1,rich_3061,empty,0,279.1,9,11,Agent exceeded session timeout (4.5 min)
+r1,rich_4079,empty,0,288.6,12,15,Agent exceeded session timeout (4.5 min)

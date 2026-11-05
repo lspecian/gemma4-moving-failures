@@ -1,0 +1,15 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_14986,wrong,6322,995.5,86,69,
+r1,fastapi_11355,pass,1630,468.2,58,50,
+r1,fastapi_14485,pass,1528,305.9,40,41,
+r1,fastapi_14482,pass,1248,389.6,46,35,
+r1,fastapi_5624,pass,747,103.0,21,16,
+r1,fastapi_14266,pass,1095,259.8,39,35,
+r1,fastapi_14246,wrong,760,378.3,38,36,
+r1,rich_3942,empty,0,943.7,100,97,
+r1,fastapi_14605,empty,0,310.5,70,25,Sandbox execution error: litellm.ContextWindowExceededError: litellm.BadRequestE
+r1,rich_3180,pass,1924,369.4,36,28,
+r1,rich_3468,wrong,8037,468.9,47,41,
+r1,rich_3772,pass,1872,526.4,58,48,
+r1,rich_3521,pass,476,256.0,15,17,
+r1,rich_3506,pass,1252,285.6,10,11,

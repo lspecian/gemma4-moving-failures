@@ -1,0 +1,13 @@
+repeat,instance_id,outcome,patch_size,duration_s,tool_calls,llm_calls,error
+r1,fastapi_15661,empty,0,344.5,11,11,Agent exceeded session timeout (5.0 min)
+r1,fastapi_14986,empty,0,346.5,5,5,Agent exceeded session timeout (5.0 min)
+r1,requests_7315,empty,0,113.7,7,8,"Sandbox execution error: Tool 'edit.py' not found. Available tools: run_command,"
+r1,requests_7309,empty,0,75.2,3,4,"Sandbox execution error: Tool 'edit.py' not found. Available tools: run_command,"
+r1,fastapi_14258,wrong,773,356.4,8,8,Agent exceeded session timeout (5.0 min)
+r1,fastapi_14372,empty,0,326.9,10,10,Agent exceeded session timeout (5.0 min)
+r1,rich_3944,empty,0,244.2,5,7,"Sandbox execution error: Tool 'edit.py' not found. Available tools: run_command,"
+r1,fastapi_15800,empty,0,369.6,13,13,Agent exceeded session timeout (5.0 min)
+r1,rich_3777,empty,0,307.0,16,16,Agent exceeded session timeout (5.0 min)
+r1,rich_3468,pass,1051,320.6,18,21,
+r1,rich_3105,empty,0,308.4,11,11,Agent exceeded session timeout (5.0 min)
+r1,rich_3043,empty,0,311.1,12,13,Agent exceeded session timeout (5.0 min)
