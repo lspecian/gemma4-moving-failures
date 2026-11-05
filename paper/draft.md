@@ -227,7 +227,8 @@ The harness can deliver facts; the experiments that produce the decisive facts n
   not help; what helped was the outcome of experiments designed to expose the failure. Raising the ceiling needs those
   outcomes produced without the model's judgement, or more attempts with selection. On the leaderboard our agent and
   the stock-tools variant both solve 7–8 of 58; the public top is what selection over many submissions predicts.
-- **Release:** the agent, evaluation tools (pacing proxy, per-task environments, replay and handoff server), the
-  unseen100 task list and builder, and per-task outcome tables, without competition data.
+- **Release:** https://github.com/lspecian/gemma4-moving-failures: the agent, evaluation tools (pacing proxy,
+  per-task environments, replay and handoff server), the unseen100 task list and builder, and per-task outcome tables
+  of every run cited, without competition data.
 
 *Word count target: ≤ 3,000.*
