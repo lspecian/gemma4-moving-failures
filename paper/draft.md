@@ -61,7 +61,7 @@ Contributions:
 ## 3. System
 
 **Narrow interface.** With the stock file tools, up to 70% of an early version's edits failed because tool results
-reach the model JSON-escaped (with thinking off, another repeated one command up to 53 times). One skill of stdlib scripts
+reach the model JSON-escaped (with thinking off, one repeated a command 53 times). One skill of stdlib scripts
 replaced them: `locate.py` (BM25-style ranking of files and functions), `show.py` (a function plus where its names are
 defined), `search.py`, `edit.py` (line-range edits with a syntax and import check), `run.py` (a bounded snippet or
 test) and `check_patch.py`. They share two SQLite stores: a code index (symbols, references, imports, which tests
@@ -78,7 +78,7 @@ gold patches pass in the shared stock environment, 115 with per-task ones). The 
 (§F3).
 
 **Outcomes and noise.** Each run ends as pass, wrong patch or empty patch. Arms are compared on the same tasks with a
-sign test on the tasks only one arm solves. Identical leaderboard submissions scored 0.12–0.20 (7–12 of 58).
+sign test on the tasks only one arm solves. Identical leaderboard submissions scored 0.12–0.24 (7–14 of 58).
 
 **Replay and handoff.** A replay server answers the harness with a recorded run's model responses, so the real harness
 repeats its tool calls in real sandboxes with no GPU. In handoff mode it replays a strong model's responses up to its
@@ -194,12 +194,12 @@ The harness can deliver facts; the experiments that produce the decisive facts n
 - **Transfer:** on unseen100, 99 tasks from 99 repositories we never tuned on, created after the model's cutoff, v24
   solved 34/99 in two runs (45/113 locally) and a public stock-tools agent tied (34, discordant 9:9).
 - **Leaderboard:** four submissions of our agent and a stock-tools variant of that public agent (v30) solved 7–8 of
-  the 58 public tasks (0.12–0.13); our variant with a quarter of the thinking budget and 36 calls 0.15, and the public
-  agent unchanged 0.18 [TODO v40], all within the 0.12–0.20 of identical submissions. Across 2,997 teams the best score rises with the number
+  the 58 public tasks (0.12–0.13); our variant with a quarter of the thinking budget and 36 calls 0.15 and, resubmitted
+  unchanged, 0.24; the public agent 0.18, and with the same change 0.15. Across 2,997 teams the best score rises with the number
   of submissions: a median of 0.08 for the 639 teams with one, 0.13 with 4–6, 0.15 with 7–10 and 0.17 with 11–20; the
   teams at 0.22–0.24 have a median of 9–11. For an agent with a true rate of 0.13, the best of 8 submissions averages
-  11.3 tasks (about 0.19) and reaches 14 (0.24) one time in ten. The public top is consistent with selection over
-  agents like ours, not evidence of a better one; the private leaderboard scores two chosen submissions on other
+  11.3 tasks (about 0.19) and reaches 14 (0.24) one time in ten. Our own 0.24 came from resubmitting a 0.15 bundle:
+  the public top is consistent with selection, not evidence of a better agent; the private leaderboard scores two chosen submissions on other
   tasks.
 
 ## 6. Related work
