@@ -2,7 +2,7 @@
 
 **A small coding agent acts on information it is shown, not on instructions to find it**
 
-*Draft 6, 2026-11-05. Numbers from experiments/LOG.md (experiment ids in brackets) and results/_analysis scripts;
+*Draft 7, 2026-11-08. Numbers from experiments/LOG.md (experiment ids in brackets) and results/_analysis scripts;
 every number was re-counted from the raw results. References were opened and checked (research/notes/1-3, 19,
 20-parts/W1-W2, 23).*
 
@@ -78,7 +78,8 @@ gold patches pass in the shared stock environment, 115 with per-task ones). The 
 (§F3).
 
 **Outcomes and noise.** Each run ends as pass, wrong patch or empty patch. Arms are compared on the same tasks with a
-sign test on the tasks only one arm solves. Identical leaderboard submissions scored 0.12–0.24 (7–14 of 58).
+sign test on the tasks only one arm solves. Run ids in brackets ([E075]) index the per-task outcome tables in the
+repository (§7). Identical leaderboard submissions scored 0.12–0.24 (7–14 of 58).
 
 **Replay and handoff.** A replay server answers the harness with a recorded run's model responses, so the real harness
 repeats its tool calls in real sandboxes with no GPU. In handoff mode it replays a strong model's responses up to its
@@ -225,8 +226,8 @@ The harness can deliver facts; the experiments that produce the decisive facts n
 - **Conclusion:** within one 8-minute attempt, a small model's main limit here is not writing fixes but finding the
   facts that make a fix right, and it seldom seeks them when told to. Delivering static facts (the right tests) did
   not help; what helped was the outcome of experiments designed to expose the failure. Raising the ceiling needs those
-  outcomes produced without the model's judgement, or more attempts with selection. On the leaderboard our agent and
-  the stock-tools variant both solve 7–8 of 58; the public top is what selection over many submissions predicts.
+  outcomes produced without the model's judgement, or more attempts with selection. On the leaderboard one bundle scored
+  9 and 14 of 58; the public top is what selection over many submissions predicts.
 - **Release:** https://github.com/lspecian/gemma4-moving-failures: the agent, evaluation tools (pacing proxy,
   per-task environments, replay and handoff server), the unseen100 task list and builder, and per-task outcome tables
   of every run cited, without competition data.
